@@ -1,6 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
 
-body{
-    font-family: "Sour Gummy", sans-serif;
-    font-size: 24px;
+html {
+  scroll-padding-top: 50px; /* Set this to my navbar's height + a little extra */
+}
+
+body {
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 24px;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  color: white;
+  background-color: #fedcdb;
+}
+.main {
+  margin-top: 100px; /* Adjust this value to create space for the navbar */
+  text-align: center;
+}
+section,
+header,
+footer {
+  margin: 20px;
+  padding: 20px;
+  background-color: #feb1b7;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header{
+  margin: 140px;
+}
+header h1 {
+  font-size: 80px;
+  margin: 0;
+}
+header h2{
+  font-size: 50px;
+  margin: 8px;
+}
+header p{
+  margin: 5px;
+}
+nav {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  right: 0;
+  width: 60%; /* Make navbar full width */
+  display: flex;
+  padding: 20px 0 20px 0;
+  background-color: #fd788b;
+  border-radius: 20px;
+  margin: auto;
+  justify-content: center; /* Center the nav content */
+  z-index: 1000; /* Ensure the navbar is above other content */
+}
+nav ul {
+  display: flex;
+  justify-content: center; /* Center the menu items */
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+nav li a {
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  background-color: #febecc;
+  border-radius: 20px;
+}
+
+nav li a:hover {
+  background-color: #fe6694;
+  border-radius: 20px;
+}
+
+header .circle-frame {
+  width: 310px;
+  height: 310px;
+  border-radius: 50%;
+  background-color: white;
+  border: 5px solid #fe6694;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .circle-frame img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border-color: white 5px solid;
+  overflow: hidden;
+  margin: auto;
 }
