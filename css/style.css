@@ -21,7 +21,7 @@ body {
   width: 10%;
   height: 100%;
   background-color: white;
-  z-index: -1; /* Ensure the background is behind other content */
+  z-index: -1; 
 }
 
 .bg-rectangle2 {
@@ -31,7 +31,7 @@ body {
   width: 10%;
   height: 100%;
   background-color: white;
-  z-index: -1; /* Ensure the background is behind other content */
+  z-index: -1; 
 }
 
 .bg-rectangle3 {
@@ -41,7 +41,7 @@ body {
   width: 10%;
   height: 100%;
   background-color: white;
-  z-index: -1; /* Ensure the background is behind other content */
+  z-index: -1; 
 }
 
 .bg-rectangle4 {
@@ -51,7 +51,7 @@ body {
   width: 10%;
   height: 100%;
   background-color: white;
-  z-index: -1; /* Ensure the background is behind other content */
+  z-index: -1; 
 }
 
 .bg-rectangle5 {
@@ -61,11 +61,11 @@ body {
   width: 10%;
   height: 100%;
   background-color: white;
-  z-index: -1; /* Ensure the background is behind other content */
+  z-index: -1; 
 }
 
 .main {
-  margin-top: 100px; /* Adjust this value to create space for the navbar */
+  margin-top: 100px; 
   text-align: center;
 }
 section,
