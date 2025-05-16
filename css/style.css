@@ -165,6 +165,11 @@ header .circle-frame img {
     margin: 0 auto;
 }
 
+.urls{
+  width: 50%;
+  margin: auto;
+}
+
 .urls a{
   filter: brightness(0) invert(1);
 }
