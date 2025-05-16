@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
 
 html {
-  scroll-padding-top: 50px; /* Set this to my navbar's height + a little extra */
+  scroll-padding-top: 100px; /* Set this to my navbar's height + a little extra */
 }
 
 body {
@@ -13,6 +13,57 @@ body {
   color: white;
   background-color: #fedcdb;
 }
+
+.bg-rectangle {
+  position: fixed;
+  top: 0;
+  left: 5%;
+  width: 10%;
+  height: 100%;
+  background-color: white;
+  z-index: -1; /* Ensure the background is behind other content */
+}
+
+.bg-rectangle2 {
+  position: fixed;
+  top: 0;
+  left: 25%;
+  width: 10%;
+  height: 100%;
+  background-color: white;
+  z-index: -1; /* Ensure the background is behind other content */
+}
+
+.bg-rectangle3 {
+  position: fixed;
+  top: 0;
+  left: 45%;
+  width: 10%;
+  height: 100%;
+  background-color: white;
+  z-index: -1; /* Ensure the background is behind other content */
+}
+
+.bg-rectangle4 {
+  position: fixed;
+  top: 0;
+  left: 65%;
+  width: 10%;
+  height: 100%;
+  background-color: white;
+  z-index: -1; /* Ensure the background is behind other content */
+}
+
+.bg-rectangle5 {
+  position: fixed;
+  top: 0;
+  left: 85%;
+  width: 10%;
+  height: 100%;
+  background-color: white;
+  z-index: -1; /* Ensure the background is behind other content */
+}
+
 .main {
   margin-top: 100px; /* Adjust this value to create space for the navbar */
   text-align: center;
@@ -66,7 +117,7 @@ nav ul {
 }
 nav li {
   display: inline;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 nav li a {
   color: white;
@@ -112,4 +163,8 @@ header .circle-frame img {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.urls a{
+  filter: brightness(0) invert(1);
 }
