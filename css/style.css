@@ -8,7 +8,6 @@ body {
   font-family: "Sour Gummy", sans-serif;
   font-size: 24px;
   margin: auto;
-  width: 60%;
   text-align: center;
   color: white;
   background-color: #fedcdb;
@@ -64,10 +63,18 @@ body {
   z-index: -1; 
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .main {
   margin-top: 100px; 
   text-align: center;
 }
+
 section,
 header,
 footer {
@@ -79,11 +86,20 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+
+.projects h3,p{
+  margin: 0.75em 0 0.5em 0;
+}
+h2{
+  margin: 0.75em 0 0.5em 0;
+  font-size: 50px;
+}
+
 header{
   margin: 140px;
 }
 header h1 {
-  font-size: 80px;
+  font-size: 100px;
   margin: 0;
 }
 header h2{
@@ -93,6 +109,7 @@ header h2{
 header p{
   margin: 5px;
 }
+
 nav {
   position: fixed;
   top: 10px;
@@ -158,9 +175,72 @@ header .circle-frame img {
   padding: 0;
 }
 
+.education,
+.experience,.skills{
+  margin: 20px;
+  padding: 20px;
+  width: 60%;
+  background-color: #feb1b7;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects{
+  margin: 20px;
+  padding: 20px;
+  width: 80%;
+  background-color: #feb1b7;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-container {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.project-item {
+  margin: 0 2em 1em;
+  padding: 20px;
+  background-color: #ff959e;
+  border-radius: 20px;
+  width: 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.cropped{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10%;
+  border: 5px solid #fe6694;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cropped2{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10%;
+  border: 5px solid #fe6694;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
 .project-item img {
-    max-width: 100%;
-    height: auto;
+    height: 14em;
+    width: 28em;
     display: block;
     margin: 0 auto;
 }
