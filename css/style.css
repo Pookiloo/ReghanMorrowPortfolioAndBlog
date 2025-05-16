@@ -101,3 +101,15 @@ header .circle-frame img {
   overflow: hidden;
   margin: auto;
 }
+
+.main ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
