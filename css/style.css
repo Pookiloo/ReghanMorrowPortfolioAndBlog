@@ -132,18 +132,18 @@ nav {
   top: 10px;
   left: 0;
   right: 0;
-  width: 60%; /* Make navbar full width */
+  width: 60%;
   display: flex;
   padding: 20px 0 20px 0;
   background-color: #fd788b;
   border-radius: 20px;
   margin: auto;
-  justify-content: center; /* Center the nav content */
-  z-index: 1000; /* Ensure the navbar is above other content */
+  justify-content: center;
+  z-index: 1000;
 }
 nav ul {
   display: flex;
-  justify-content: center; /* Center the menu items */
+  justify-content: center; 
   align-items: center;
   padding: 0;
   margin: 0;
@@ -209,16 +209,15 @@ header .circle-frame img {
 
 .about-education-row {
   display: flex;
-  gap: 40px; /* space between the sections */
+  gap: 40px;
   justify-content: center;
   align-items: flex-start;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .about, .education {
   width: 30%;
   height: 30em;
-  /* Remove display: flex; here if you want normal block flow inside */
   flex-direction: column;
 }
 
