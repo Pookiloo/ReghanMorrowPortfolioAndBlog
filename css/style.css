@@ -22,6 +22,12 @@ body {
   justify-content: center;
 }
 
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .contacts a {
   text-decoration: none;
   color: transparent;
@@ -338,11 +344,29 @@ header .circle-frame img {
   filter: brightness(0) invert(1);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1860px) {
+  nav {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+    width: 60%;
+    display: flex;
+    padding: 20px 0 20px 0;
+    background-color: #fd788b;
+    border-radius: 20px;
+    margin: auto;
+    justify-content: center;
+    z-index: 1000;
+  }
+
   .navbar {
     width: 95%;
     padding: 10px 0px;
     font-size: 1em;
+  }
+  nav li{
+    margin: 10px 10px;
   }
 
   .menu {
@@ -388,7 +412,7 @@ header .circle-frame img {
   }
 
   .project-item {
-    width: 98% !important;
+    width: 90% !important;
     min-height: unset;
     margin: 0 auto 20px auto;
     padding: 10px;
